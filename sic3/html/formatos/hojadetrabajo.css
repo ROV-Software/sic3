@@ -1,0 +1,162 @@
+html{
+	background: #4f4343;
+}
+::-webkit-scrollbar{display: none;};
+div{display:flex;}
+/*HOJA BLANCA*/
+.fig1{
+	margin: 2rem 0 2rem 18rem;
+	background:#fff;
+	width: 50rem;
+	height: 60rem;
+    box-shadow: 2rem 2rem 60px #000;
+    position: absolute;
+    z-index: -5}
+/*HOJA BLANCA*/
+/*1er Recuadro*/
+	.fig2{
+		position: absolute;
+	    z-index: -4;
+	    border: 1px solid #a90606;
+	    border-radius: 10px;
+	    background: white;
+	    width: 29rem;
+	    height: 8rem;
+	    margin: 2.5rem 0 0 19rem;}
+	.linverde1,.linverde2{
+		position: absolute;
+		z-index: -3;
+		border-bottom: 1px solid #09e461;
+		width: 29rem;}
+	.linverde1{top:6rem;}
+	.linverde2{top:3.5rem;}
+	.linve1,.linve2,.linve3{
+	    position: absolute;
+	    z-index: -3;
+	    border: none;
+	    width: 28.88rem;
+	    margin-left: .1rem;
+	    font-size: 1rem;
+	    color:#456789;}
+	.linve1{border-radius:10px 10px 0 0; height:3.4rem;}
+	.linve2{top:3.6rem;height:2.3rem;}
+	.linve3{top:6.1rem;border-radius:0 0 10px 10px; height:1.76rem;}
+/*1er Recuadro_____________________________________________________*/
+/*2do Recuadro*/
+	.fig3{
+		position: absolute;
+	    z-index: -4;
+	    border: 1px solid #a90606;
+	    border-radius: 10px;
+	    background: white;
+	    width: 18rem;
+	    height: 8rem;
+	    margin: 2.5rem 0 0 49rem;}
+    .linverde3,.linverde4,.linverde5{
+    	position: absolute;
+    	z-index: -3;
+    	border: .5px solid #09e461;}
+	.linverde3{top:3.5rem; width: 18rem;}
+	.linverde4{top:6rem; width: 18rem;}
+	.linverde5{ top:3.5rem; height: 2.5rem; margin-left: 11rem;}
+	.linverde6,.linverde7{
+		position: absolute;
+		z-index: -3;
+		top:4.3rem;
+		height: 2rem;
+		border:none;
+		font-size: 2rem;
+		color:#09e461;}
+	.linverde6{margin-left:13.5rem ;}
+	.linverde7{margin-left:15.5rem ;}
+	.linve4,.linve5,.linve6,.linve7,.linve8,.linve9{
+		position: absolute;
+		z-index: -3;
+		border:none;
+		color:#456789;
+		font-size: 1rem;}
+	.linve4{
+	    width: 17.9rem;
+	    height: 2rem;
+	    margin: 1.4rem 0 0 0.1rem;}
+	.linve5{
+	    width: 11rem;
+	    height: 2.3rem;
+	    margin: 3.58rem 0 0 0;}
+	.linve6{
+		width: 17.9rem;
+	    height: 1.8rem;
+	    margin: 6.1rem 0 0 0;
+	    border-radius: 0 0 10px 10px;}
+	.linve7,.linve8,.linve9{
+		width: 1.5rem;
+    	height: 2rem;}
+	.linve7{margin:3.9rem 0 0 12rem;}
+	.linve8{margin:3.9rem 0 0 14rem;}
+	.linve9{margin:3.9rem 0 0 16.3rem;}
+/*2do Recuadro_____________________________________________________*/
+/*3er Recuadro*/
+.fig4{
+    position: absolute;
+    z-index: -4;
+    border: 1px solid #a90606;
+    border-radius: 10px;
+    background: white;
+    width: 48rem;
+    height: 48rem;
+    margin: 12rem 0 0 19rem;}
+.T1,.T2,.T3,.T4,.T5,.T6,.T7,.T8,.T9{
+	position: absolute;
+	z-index: -3;
+	background: red;
+	width: 15rem;
+	height: 15rem;}
+	.T2{margin: 0 0 0 16.5rem;}
+	.T3{margin: 0 0 0 33rem ;}
+	.T4{margin:16rem 0 0 0 ;}
+	.T5{margin:16rem 0 0 16.5rem;}
+	.T6{margin:16rem 0 0 33rem;}
+	.T7{margin:32rem 0 0 0;}
+	.T8{margin:32rem 0 0 16.5rem;}
+	.T9{margin:32rem 0 0 33rem;}
+.hojat,.hojah{
+	width: 7.35rem;
+	border:none;
+	outline: none;
+	box-sizing: border-box;
+}
+.hojat{
+	height: 1.2rem;
+}
+.hojah{
+	height: 3rem;
+}
+.tb{
+	border-collapse: collapse;
+
+}
+/*3er Recuadro_____________________________________________________*/
+/*IMPRIMIR*/
+.imp{
+    position: absolute;
+    z-index: -5;
+    font-size: 1.5rem;
+    color: #ecdddd;
+    margin: 67rem 0 0 39.5rem;
+    text-decoration: none;
+    animation: anim 5s infinite;
+}
+@keyframes anim{
+    0%{color:#fff;}
+    10%{color:#f6aaf7;}
+    20%{color:#e6aaf7;}
+    30%{color:#d6aaf7;}
+    40%{color:#c6aaf7;}
+    50%{color:#b6aaf7;}
+    60%{color:#c6aaf7;}
+    70%{color:#d6aaf7;}
+    80%{color:#e6aaf7;}
+    90%{color:#f6aaf7;}
+    100%{color:#fff;}
+}
+/*IMPRIMIR_________________________________________________________*/

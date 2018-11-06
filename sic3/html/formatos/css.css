@@ -1,0 +1,392 @@
+html{
+	background: #4f4343;
+}
+::-webkit-scrollbar{display: none;};
+
+div{display:flex;}
+/*HOJA BLANCA*/
+.fig1{
+	margin: 2rem 0 2rem 18rem;
+	background:#fff;
+	width: 50rem;
+	height: 60rem;
+    box-shadow: 2rem 2rem 60px #000;
+    position: absolute;
+    z-index: -5}
+/*HOJA BLANCA*/
+/*POLIZA DE INGRESOS*/
+/*cuadro azul*/
+.fig2{
+	margin: 4.5rem 0 0 21rem;
+    background: #1473e7;
+    width: 44.5rem;
+    height: 44.5rem;
+    position: absolute;
+    z-index: -4;
+    border-radius: 10px 10px 0 10px;}
+/*cuadro azul---------------------------------*/
+/*cuadro DE LINEAS BLANCAS*/
+.fig3{
+	margin: 6.3rem 0 0 21.5rem;
+    background: #d7eede;
+    width: 43.5rem;
+    height: 42.3rem;
+    position: absolute;
+    z-index: -3;
+    border-radius: 10px 0px 0 4px;}
+/*cuadro DE LINEAS BLANCAS----------*/
+/*parte de fecha y poliza No.*/
+.fechnum1,.fechnum2{
+	background: #fff;
+	height:1.45rem;
+position: absolute;
+z-index: -3;}
+.fechnum1{
+    width: 15rem;
+    margin: 4.8rem 0 0 44.9rem;
+    border-radius: 10px 0 0;}
+.fechnum2{
+    width: 5rem;
+    margin: 4.8rem 0 0 60rem;
+    border-radius: 0 10px 0 0;}
+
+    .numfech1,.numfech2{
+   color: #456789;
+   border:none;
+   font-size: .6rem;
+   text-align: left-top;
+   height: 1.3rem;
+   text-align:center;
+    }
+    .numfech1{width: 15rem; border-radius: 10px 0 0}
+    .numfech2{width:5rem; border-radius: 0 10px 0 0}
+/*parte de fecha y poliza No.--------------------*/
+/*textos dentro del cuadro de lineas*/
+.texto1,.texto2,.texto3,.texto4,.texto5,.texto6{
+    color:#456789;
+    position: absolute;
+    z-index: -3;
+    font-size: .5rem;
+    top: 7rem;}
+.texto1{margin-left:22rem;}
+.texto2{margin-left:25.5rem;}
+.texto3{margin-left: 32.5rem;letter-spacing: .5rem;}
+.texto4{margin-left:48.5rem;}
+.texto5{margin-left:56.5rem;}
+.texto6{margin-left:61.7rem;}
+.texto{
+    color: #fff;
+    position: absolute;
+    z-index: -3;
+    font-size: 1.3rem;
+    margin: 4.8rem 0 0 22rem;}
+.linea1,.linea2,.linea3,.linea4,.linea5{
+	width: 1px;
+	height: 41rem;
+	top: 8rem;
+	position: absolute;
+	z-index: -2;
+	background: #456789;}
+.linea1{margin-left:24.6rem;}
+.linea2{margin-left:28.2rem;}
+.linea3{margin-left:44.9rem;}
+.linea4{margin-left:54rem;}
+.linea5{margin-left:60rem;}
+/*textos dentro del cuadro de lineas-----------------------*/
+/*lineas blancas restantes*/
+.linbls1,.linbls2,.linbls3,.linbls4,.linbls5,.linbls6,.linbls7,.linbls8,.linbls9,.linbls10,.linbls11,.linbls12,.linbls13,.linbls14,.linbls15,.linbls16,.linbls17,.linbls18,.linbls19,.linbls20,.linbls21{
+	width:43.5rem;
+	height: 1rem;
+	position: absolute;
+	z-index: -3;
+	background: #fff;
+	margin-left: 21.5rem; }
+.linbls1{top:8rem;}
+.linbls2{top:10rem;}
+.linbls3{top:12rem;}
+.linbls4{top:14rem;}
+.linbls5{top:16rem;}
+.linbls6{top:18rem;}
+.linbls7{top:20rem;}
+.linbls8{top:22rem;}
+.linbls9{top:24rem;}
+.linbls10{top:26rem;}
+.linbls11{top:28rem;}
+.linbls12{top:30rem;}
+.linbls13{top:32rem;}
+.linbls14{top:34rem;}
+.linbls15{top:36rem;}
+.linbls16{top:38rem;}
+.linbls17{top:40rem;}
+.linbls18{top:42rem;}
+.linbls19{top:44rem;}
+.linbls20{top:46rem;}
+.linbls21{top:48rem;}
+/*lineas blancas restantes---------------------------------*/
+/*pequeños recuadros faltantes*/
+.peqrec1,.peqrec2,.peqrec3{
+	position: absolute;
+	z-index: -3;
+	color: #456789;
+	font-size: .7rem;}
+.peqrec1{
+	margin: 49rem 0 0 47rem;
+	background: #fff;}
+.peqrec2{
+    margin: 48.6rem 0 0 54rem;
+    background: #d7eede;
+    width: 11rem;
+    height: 1rem;
+    border-radius: 0 0 5px 5px;}
+.peqrec3{
+    margin: 48.6rem 0 0 53.5rem;
+    background: #1473e7;
+    width: 12rem;
+    height: 1.5rem;
+    z-index: -4;
+    border-radius: 0 0 10px 10px;}
+/*pequeños recuadros faltantes-----------------------------*/
+/*POLIZA DE INGRESOS_______________________________________*/
+/*CONCEPTO*/
+.textoCONCEPTO{
+    color: #456789;
+    margin: 51rem 0 0 21rem;
+    font-size: .8rem;
+    position: absolute;
+    z-index: -3;}
+.fig5{
+	position: absolute;
+    z-index: -4;
+    width: 44.2rem;
+    height: 7rem;
+    border: 2px solid #456789;
+    border-radius: 10px;
+    margin: 52rem 0 0 21rem;
+    background: #d7eede;}
+.contex2,.contex3,.contex4,.contex5,.contex6{
+    position: absolute;
+    z-index: -2;
+    color: #456789;
+    font-size: .2rem;
+    margin: 57.5rem 0 0 21.5rem;
+    letter-spacing: .1rem}
+.contex1{
+	position: absolute;
+	z-index: -2;
+	color:#1473e7;
+	font-size:.8rem;
+	margin:57.8rem 0 0 21.8rem;}
+.contex2{margin-left:29rem;}
+.contex3{margin-left:37rem;}
+.contex4{margin-left:44rem;}
+.contex5{margin-left:53rem;}
+.contex6{margin-left:61rem;}
+.line1{
+    position: absolute;
+    z-index: -2;
+    width: 44.3rem;
+    height: 1px;
+    background: #456789;
+    margin: 57.3rem 0 0 21rem;}
+.line2,.line3,.line4,.line5,.line6{
+    position: absolute;
+    z-index: -3;
+    width: 1px;
+    height: 1.8rem;
+    background: #456789;
+    top: 57.8rem;}
+.line2{margin-left:27rem;}
+.line3{margin-left:34.5rem;}
+.line4{margin-left:42rem;}
+.line5{margin-left:50rem;}
+.line6{margin-left: 59rem;}
+.ULTlineas1,.ULTlineas2{
+    position: absolute;
+    z-index: -3;
+    width: 44rem;
+    height: 1rem;
+    background: #fff;
+    margin-left: 21.2rem;}
+.ULTlineas1{top:53.5rem;}
+.ULTlineas2{top:55.5rem;}
+.conc1,.conc2{
+    	position: absolute;
+    	color: #456789;
+    	border:none;
+    	width: 44rem;
+    	height: .9rem;}
+.ULTlineas3{
+position: absolute;
+    z-index: -3;
+    width: 38.1rem;
+    height: 1rem;
+    background: #fff;
+    margin: 58.1rem 0 0 27.1rem;
+    border-radius: 0 0 10px 0;}
+.conc3,.conc4,.conc5,.conc6,.conc7,.conc8,.conc8-9,.conc9{
+	border: none;
+	color: #456789;
+	position: absolute;
+	height: .9rem;}
+.conc3{width:7.5rem;}
+.conc4{width:7.5rem; margin-left:7.5rem;}
+.conc5{width:8rem; margin-left:15rem ;}
+.conc6{width:9rem; margin-left:23rem;}
+.conc7{width:6.11rem; margin-left:32rem; border-radius: 0 0 10px 0;}
+.conc8,.conc8-9,.conc9{
+width:44rem;
+background:#d7eede;}
+.conc8{border-radius: 10px 10px 0 0;}
+.conc8-9{top:2rem;}
+.conc9{top:4rem;}
+.imagen{
+    width: 6rem;
+    height: 2rem;
+    position: absolute;
+    margin: 60rem 0 0 62rem;}
+/*CONCEPTO_________________________________________________*/
+/*INPUT*/
+.CUENTA{
+    width: 2.9rem;
+    height: .69rem;
+    background: white;
+    color: #456789;
+    position: absolute;}
+.SUBCTA{
+    position: absolute;
+    margin-left: 3.1rem;
+    width: 3.4rem;
+    height: .69rem;
+    color: #456789;}
+.NOMBRE{
+    position: absolute;
+    margin-left: 6.7rem;
+    width: 16.51rem;
+    height: .69rem;
+    color: #456789;}
+.PARCIAL{
+    position: absolute;
+    margin-left: 23.4rem;
+    width: 8.95rem;
+    height: .69rem;
+    color: #456789;}
+.DEBE{
+	position: absolute;
+    margin-left: 32.5rem;
+    width: 5.8rem;
+    height: .69rem;
+    color: #456789;}
+.HABER{
+    position: absolute;
+    margin-left: 38.5rem;
+    width: 4.76rem;
+    height: .69rem;
+    color: #456789;}
+.sumasiguales{
+	position: absolute;
+	width: 10.96rem;
+	height: 1rem;
+	color: #456789;
+	background: #d7eede;
+	border-radius: 0 0 5px 5px;
+	border: none;}
+.inpt1,.inpt2,.inpt3,.inpt4,.inpt5,.inpt6,.inpt7,.inpt8,.inpt9,.inpt10,.inpt11,.inpt12,.inpt13,.inpt14,.inpt15,.inpt16,.inpt17,.inpt18,.inpt19,.inpt20{
+	width:43.5rem;
+	height: 1rem;
+	position: absolute;
+	z-index: -3;}
+.inpt1{top:2.3rem;}
+.inpt2{top:4.3rem;}
+.inpt3{top:6.3rem;}
+.inpt4{top:8.3rem;}
+.inpt5{top:10.3rem;}
+.inpt6{top:12.3rem;}
+.inpt7{top:14.3rem;}
+.inpt8{top:16.3rem;}
+.inpt9{top:18.3rem;}
+.inpt10{top:20.3rem;}
+.inpt11{top:22.3rem;}
+.inpt12{top:24.3rem;}
+.inpt13{top:26.3rem;}
+.inpt14{top:28.3rem;}
+.inpt15{top:30.3rem;}
+.inpt16{top:32.3rem;}
+.inpt17{top:34.3rem;}
+.inpt18{top:36.3rem;}
+.inpt19{top:38.3rem;}
+.inpt20{top:40.3rem;}
+
+.CUENTA1{
+    width: 3.2rem;
+    height: .8rem;
+    color: #456789;
+    position: absolute;
+    background: #d7eede;
+    border: none;}
+.SUBCTA1{
+	position: absolute;
+    margin-left: 3.1rem;
+    width: 3.6rem;
+    height: .8rem;
+    color: #456789;
+    background: #d7eede;
+    border: none;}
+.NOMBRE1{
+	position: absolute;
+    margin-left: 6.7rem;
+    width: 16.69rem;
+    height: .8rem;
+    color: #456789;
+    background: #d7eede;
+    border: none;}
+.PARCIAL1{
+    position: absolute;
+    margin-left: 23.4rem;
+    width: 9.1rem;
+    height: .8rem;
+    color: #456789;
+	background: #d7eede;
+   border: none;}
+.DEBE1{
+	position: absolute;
+    margin-left: 32.5rem;
+    width: 6rem;
+    height: .8rem;
+    color: #456789;
+	background: #d7eede;
+   border: none;}
+.HABER1{
+    position: absolute;
+    margin-left: 38.5rem;
+    width: 5rem;
+    height: .8rem;
+    color: #456789;
+	background: #d7eede;
+   border: none;}
+/*INPUT____________________________________________________*/
+/*3er Recuadro_____________________________________________________*/
+
+/*IMPRIMIR*/
+.imp{
+    position: absolute;
+    z-index: -5;
+    font-size: 1.5rem;
+    color: #ecdddd;
+    margin: 67rem 0 0 39.5rem;
+    text-decoration: none;
+    animation: anim 5s infinite;
+}
+@keyframes anim{
+    0%{color:#fff;}
+    10%{color:#f6aaf7;}
+    20%{color:#e6aaf7;}
+    30%{color:#d6aaf7;}
+    40%{color:#c6aaf7;}
+    50%{color:#b6aaf7;}
+    60%{color:#c6aaf7;}
+    70%{color:#d6aaf7;}
+    80%{color:#e6aaf7;}
+    90%{color:#f6aaf7;}
+    100%{color:#fff;}
+}
+/*IMPRIMIR_________________________________________________________*/

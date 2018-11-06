@@ -1,0 +1,11 @@
+table{
+	background: #456789;
+	border-collapse: collapse;
+	border:none;
+	position: absolute;
+	margin:10rem 0 5rem 0 ;
+}
+.SH{
+	background: blue;
+	width: 5rem;
+}
